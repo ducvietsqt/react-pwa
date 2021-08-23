@@ -21,4 +21,3 @@ dist/
 node_modules
 .idea/
 .vscode/
-yarn.lock

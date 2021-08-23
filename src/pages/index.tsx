@@ -1,11 +1,16 @@
-import React from 'react'
-export default class Home extends React.Component {
-  render() {
-    return (
-      <div>
-        Hello World
-      </div>
-    )
+import React  from 'react'
+interface State {
+  title?: string;
+}
+
+export default class Home extends React.Component<State> {
+  state: State = {
+    title: "",
+  }
+  render(): JSX.Element{
+    return <div>
+      Hello World { this.state.title }
+    </div>
   }
 }
 
