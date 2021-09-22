@@ -30,5 +30,6 @@ module.exports = {
     'prefer-const': 'error',
     'quote-props': ['error', 'consistent-as-needed'],
     'semi': ['error', 'never'],
+    "react/react-in-jsx-scope": "off"
   },
 };
