@@ -8,4 +8,6 @@ export type Column = {
 export type Row = {
     id: UniqueId;
     name: RowTitle;
+    tags: [];
+    created: string;
 }
